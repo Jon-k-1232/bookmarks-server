@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
-const validateBearerToken = require('./error-handler');
+const validateBearerToken = require('./validate-bearer-token');
 const bookmarksRouter = require('./bookmarks/bookmarks-router');
 
 

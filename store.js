@@ -1,4 +1,4 @@
-const uuid = require('uuid/v4')
+const uuid = require('uuid/v4');
 
 const bookmarks = [
     { id: uuid(),
@@ -16,6 +16,6 @@ const bookmarks = [
         url: 'https://developer.mozilla.org',
         description: 'The only place to find web documentation',
         rating: 5 },
-]
+];
 
-module.exports = { bookmarks }
+module.exports = { bookmarks };
